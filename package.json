@@ -1,12 +1,12 @@
 {
-    "name": "live-update-worker",
+    "name": "{{ project-name }}",
     "version": "1.0.0",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1",
         "format": "prettier --write '**/*.{js,css,json,md}'"
     },
-    "author": "shagamemnon <franklin@cloudflare.com>",
+    "author": "{{ authors }}",
     "license": "ISC",
     "devDependencies": {
         "prettier": "^1.17.0",
