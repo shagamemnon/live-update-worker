@@ -1,0 +1,20 @@
+{
+    "name": "live-update-worker",
+    "version": "1.0.0",
+    "main": "index.js",
+    "scripts": {
+        "test": "echo \"Error: no test specified\" && exit 1",
+        "format": "prettier --write '**/*.{js,css,json,md}'"
+    },
+    "author": "shagamemnon <franklin@cloudflare.com>",
+    "license": "ISC",
+    "devDependencies": {
+        "prettier": "^1.17.0",
+        "rollup": "^1.26.3",
+        "rollup-loader": "^0.3.0",
+        "webpack-rollup-loader": "^0.8.0"
+    },
+    "dependencies": {
+        "serverless-cloudflare-workers": "^1.2.0"
+    }
+}
