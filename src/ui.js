@@ -1,6 +1,6 @@
 export default {
   body (req) {
-    return `{% raw %}<html>
+    return `<html>
     <head>
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
@@ -428,8 +428,7 @@ export default {
 
 
           </body>
-          </html>
-    {% endraw %}`
+          </html>`
   },
 
   render (req) {

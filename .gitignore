@@ -11,3 +11,4 @@ wasm-pack.log
 worker/
 node_modules/
 .cargo-ok
+webpack.config.js

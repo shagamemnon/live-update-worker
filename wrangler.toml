@@ -5,5 +5,4 @@ workers_dev = true
 route = ""
 zone_id = ""
 
-[template]
-include = ["wrangler.toml"]
+exclude = ["src/ui.js, webpack.config.js"]
